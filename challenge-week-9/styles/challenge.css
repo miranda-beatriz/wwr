@@ -1,0 +1,35 @@
+img{
+    width: 1500px;
+    height: 1000px;
+}
+section{
+    text-align: center;
+}
+.weeks{
+    color: rgb(96, 96, 192);
+    font-size: 40px;
+}
+h1{
+    font-size: 75px;
+}
+.text{
+    color: rgb(168, 151, 125);
+    font-size: 40px;
+    text-align: center;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(85, 85, 204);
+    text-align: center;
+    font-size: 30px;
+}
+.first{
+    grid-column: 1/2;
+}
+.second{
+    grid-column: 2/3;
+}
+.third{
+    grid-column: 3/4;
+}
